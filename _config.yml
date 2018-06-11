@@ -4,6 +4,15 @@ description:    "New York City: One Halal Cart at a time."
 baseurl:        ""
 url:            "https://chesterhow.github.io"
 
+remote_theme: chesterhow/tale
+
+permalink:    /:year-:month-:day/:title
+paginate:     5
+
+plugins:
+  - jekyll-paginate
+  - jekyll-remote-theme
+
 # Author
 author:
   name:         Chester How
